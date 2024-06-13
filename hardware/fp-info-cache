@@ -1,4 +1,4 @@
-23930774728066924
+23935935579628893
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -97251,6 +97251,13 @@ M.2-KEY-BLANK
 76
 76
 matei
+MLP44-24_L4.0-W4.0-P0.45-TL-EP
+
+
+0
+28
+28
+matei
 MODULE_TMC2208_SILENTSTEPSTICK
 
 
@@ -97412,6 +97419,13 @@ SWD_pogo_landing StepUp generated footprint
 6
 6
 matei
+SiC437AED
+SiC437AED StepUp generated footprint
+
+0
+30
+28
+matei
 SiliconDome
 
 
@@ -97435,6 +97449,13 @@ antenna StepUp generated footprint
 matei
 ayab-oshw
 
+
+0
+0
+0
+matei
+bud_9162
+bud_enclosures StepUp generated footprint
 
 0
 0
