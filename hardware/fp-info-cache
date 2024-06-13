@@ -1,4 +1,4 @@
-23930774728066924
+23720840784989887
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -8596,6 +8596,13 @@ SMA Straight Samtec Edge Mount
 5
 2
 Connector_Coaxial
+SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount
+Connector SMA, 0Hz to 20GHz, 50Ohm, Edge Mount (http://suddendocs.samtec.com/prints/sma-j-p-x-st-em1-mkt.pdf)
+SMA Straight Samtec Edge Mount
+0
+5
+2
+Connector_Coaxial
 SMA_Wurth_60312102114405_Vertical
 Würth WR-SMA PCB SMT Jack, Vertical (https://www.we-online.com/components/products/datasheet/60312102114405.pdf)
 Coaxial Connector 50 ohms Female
@@ -11423,6 +11430,55 @@ Wuerth FPC 68611214422 connector 12 bottom-side contacts 1.0mm pitch 1.0mm heigh
 0
 14
 13
+Connector_HDMI
+HDMI_A_Amphenol_10029449-x01xLF_Horizontal
+HDMI Type A connector, Amphenol 10029449-001TLF 10029449-001RLF 10029449-101TLF 10029449-101RLF, Right Angle(https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10029449.pdf)
+hdmi right angle
+0
+23
+20
+Connector_HDMI
+HDMI_A_Contact_Technology_HDMI-19APL2_Horizontal
+HDMI Contact Technology Type A http://www.contactswitch.com/en/download.aspx?id=1449
+HDMI Contact Technology Type A
+0
+23
+20
+Connector_HDMI
+HDMI_A_Kycon_KDMIX-SL1-NS-WS-B15_VerticalRightAngle
+HDMI, Type A, Kycon KDMIX-SL1-NS-WS-B15, Vertical Right Angle, http://www.kycon.com/Pub_Eng_Draw/KDMIX-SL1-NS-WS-B15.pdf
+hdmi type a
+0
+23
+20
+Connector_HDMI
+HDMI_A_Molex_208658-1001_Horizontal
+HDMI Molex Type A https://www.molex.com/pdm_docs/sd/2086581001_sd.pdf
+HDMI Molex Type A
+0
+23
+20
+Connector_HDMI
+HDMI_Micro-D_Molex_46765-0x01
+HDMI, Micro, Type D, SMD, 0.4mm pitch, 19 ckt, right angle (http://www.molex.com/pdm_docs/sd/467651301_sd.pdf)
+hdmi micro type d right angle smd
+0
+23
+20
+Connector_HDMI
+HDMI_Micro-D_Molex_46765-1x01
+HDMI, Micro, Type D, THT, 0.4mm pitch, 19 ckt, right angle (http://www.molex.com/pdm_docs/sd/467651301_sd.pdf)
+hdmi micro type d right angle tht
+0
+23
+20
+Connector_HDMI
+HDMI_Micro-D_Molex_46765-2x0x
+HDMI, Micro, Type D, THT/SMD hybrid, 0.4mm pitch, 19 ckt, right angle (http://www.molex.com/pdm_docs/sd/467651301_sd.pdf)
+hdmi micro type d right angle tht smd hybrid 
+0
+23
+20
 Connector_Harting
 Harting_har-flexicon_14110213001xxx_1x02-MP_P2.54mm_Vertical
 Harting har-flexicon series connector, 14110213001xxx (https://b2b.harting.com/files/download/PRD/PDF_TS/1411XX13001XXX_100228421DRW046C.pdf), generated with kicad-footprint-generator
@@ -56321,258 +56377,6 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
-Espressif
-ESP32-C3-MINI-1
-ESP32-C3-MINI-1: https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf
-ESP32-C3
-0
-61
-53
-Espressif
-ESP32-C3-MINI-1U
-ESP32-C3-MINI-1U: https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf
-ESP32-C3
-0
-61
-53
-Espressif
-ESP32-C3-MINI-1_HandSoldering
-ESP32-C3-MINI-1: https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf
-ESP32-C3
-0
-61
-53
-Espressif
-ESP32-C3-WROOM-02
-ESP32-C3-WROOM-02: https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf
-ESP32-C3
-0
-27
-19
-Espressif
-ESP32-C3-WROOM-02U
-ESP32-C3-WROOM-02: https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf
-ESP32-C3
-0
-27
-19
-Espressif
-ESP32-C6-DevKitC-1
-ESP32-C6 general-purpose development board, based on ESP32-2-WROOM-1,It has all the ESP32-C6 pins exposed and is easy to connect and use.
-ESP32-C6
-0
-32
-32
-Espressif
-ESP32-C6-MINI-1
-ESP32-C6-MINI-1: https://www.espressif.com/sites/default/files/documentation/esp32-c6-mini-1_datasheet_en.pdf
-ESP32-C6
-0
-61
-53
-Espressif
-ESP32-C6-MINI-1U
-ESP32-C6-MINI-1U: https://www.espressif.com/sites/default/files/documentation/esp32-c6-mini-1_datasheet_en.pdf
-ESP32-C6
-0
-61
-53
-Espressif
-ESP32-C6-WROOM-1
-ESP32-C6-WROOM-1: https://www.espressif.com/sites/default/files/documentation/esp32-c6-wroom-1_datasheet_en.pdf
-esp32-c6
-0
-37
-29
-Espressif
-ESP32-DevKitC
-ESP32-DevKitC: https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-devkitc.html
-ESP32
-0
-38
-38
-Espressif
-ESP32-MINI-1
-ESP32-MINI-1: https://www.espressif.com/sites/default/files/documentation/esp32-mini-1_datasheet_en.pdf
-ESP32-MINI-1
-0
-63
-55
-Espressif
-ESP32-MINI-1U
-ESP32-MINI-1U: https://www.espressif.com/sites/default/files/documentation/esp32-mini-1_datasheet_en.pdf
-ESP32-MINI-1U
-0
-63
-55
-Espressif
-ESP32-PICO-MINI-02
-ESP32-PICO-MINI-02: https://www.espressif.com/sites/default/files/documentation/esp32-pico-mini-02_datasheet_en.pdf
-ESP32-PICO-MINI-02
-0
-61
-53
-Espressif
-ESP32-PICO-MINI-02U
-ESP32-PICO-MINI-02U: https://www.espressif.com/sites/default/files/documentation/esp32-pico-mini-02_datasheet_en.pdf
-ESP32-PICO-MINI-02U
-0
-61
-53
-Espressif
-ESP32-PICO-MINI-02_HandSoldering
-ESP32-PICO-MINI-02: https://www.espressif.com/sites/default/files/documentation/esp32-pico-mini-02_datasheet_en.pdf
-ESP32-PICO-MINI-02
-0
-61
-53
-Espressif
-ESP32-S2-DevKitC-1
-ESP32-S2 general-purpose development board, based on ESP32-S2-SOLO or ESP32-S2-SOLO-U,It has all the ESP32-S2 pins exposed and is easy to connect and use.
-ESP32-S2
-0
-44
-44
-Espressif
-ESP32-S2-DevKitM
-ESP32-S2 general-purpose development board
-ESP32-S2
-0
-42
-42
-Espressif
-ESP32-S2-MINI-1
-ESP32-S2-MINI-1 and ESP32-S2-MINI-1U: https://www.espressif.com/sites/default/files/documentation/esp32-s2-mini-1_esp32-s2-mini-1u_datasheet_en.pdf
-ESP32-S2
-0
-73
-65
-Espressif
-ESP32-S2-MINI-1U
-ESP32-S2-MINI-1 and ESP32-S2-MINI-1U: https://www.espressif.com/sites/default/files/documentation/esp32-s2-mini-1_esp32-s2-mini-1u_datasheet_en.pdf
-ESP32-S2
-0
-73
-65
-Espressif
-ESP32-S2-MINI-1_HandSoldering
-ESP32-S2-MINI-1 and ESP32-S2-MINI-1U: https://www.espressif.com/sites/default/files/documentation/esp32-s2-mini-1_esp32-s2-mini-1u_datasheet_en.pdf
-ESP32-S2 Hand Soldering
-0
-73
-65
-Espressif
-ESP32-S2-SOLO
-ESP32-S2-SOLO https://www.espressif.com/sites/default/files/documentation/esp32-s2-solo_esp32-s2-solo-u_datasheet_en.pdf
-esp32-s2 module
-0
-49
-41
-Espressif
-ESP32-S2-SOLO-2U
-ESP32-S2-SOLO-2U https://www.espressif.com/sites/default/files/documentation/esp32-s2-solo-2_esp32-s2-solo-2u_datasheet_en.pdf
-esp32-s2 module
-0
-49
-41
-Espressif
-ESP32-S2-Saola-1
-Espressif ESP32-S2-Saola-1 Development Kit: https://docs.espressif.com/projects/esp-idf/en/latest/esp32s2/hw-reference/esp32s2/user-guide-saola-1-v1.2.html
-esp32-s2 devkit
-0
-42
-42
-Espressif
-ESP32-S2-WROOM
-ESP32-S2-WROOM and ESP32-S2-WROOM-I: https://www.espressif.com/sites/default/files/documentation/esp32-s2-wroom_esp32-s2-wroom-i_datasheet_en.pdf
-ESP32-S2
-0
-51
-43
-Espressif
-ESP32-S2-WROVER
-ESP32-S2-WROVER and ESP32-S2-WROVER-I: https://www.espressif.com/sites/default/files/documentation/esp32-s2-wrover_esp32-s2-wrover-i_datasheet_en.pdf
-ESP32-S2
-0
-55
-43
-Espressif
-ESP32-S3-DevKitC
-ESP32-S3 general-purpose development board, based on ESP32-S3-WROOM-1 or ESP32-S3-WROOM-1U,It has all the ESP32-S3 pins exposed and is easy to connect and use.
-ESP32-S3
-0
-44
-44
-Espressif
-ESP32-S3-MINI-1
-ESP32-S3-MINI-1
-esp32-s3
-0
-73
-65
-Espressif
-ESP32-S3-MINI-1U
-ESP32-S3-MINI-1 and ESP32-S3-MINI-1U
-esp32-s3
-0
-73
-65
-Espressif
-ESP32-S3-WROOM-1
-ESP32-S3-WROOM-1 is a powerful, generic Wi-Fi + Bluetooth LE MCU modules that have Dual core CPU , a rich set of peripherals, provides acceleration for neural network computing and signal processing workloads. They are an ideal choice for a wide variety of application scenarios related to AI + Internet of Things (AIoT), such as wake word detection and speech commands recognition , face detection and recognition, smart home, smart appliance, smart control panel, smart speaker etc.
-esp32-s3
-0
-51
-41
-Espressif
-ESP32-S3-WROOM-1U
-ESP32-S3-WROOM-1 is a powerful, generic Wi-Fi + Bluetooth LE MCU modules that have Dual core CPU , a rich set of peripherals, provides acceleration for neural network computing and signal processing workloads. They are an ideal choice for a wide variety of application scenarios related to AI + Internet of Things (AIoT), such as wake word detection and speech commands recognition , face detection and recognition, smart home, smart appliance, smart control panel, smart speaker etc.
-esp32-s3
-0
-49
-41
-Espressif
-ESP32-S3-WROOM-2
-ESP32-S3-WROOM-2 is a powerful, generic Wi-Fi + Bluetooth LE MCU modules that have Dual core CPU , a rich set of peripherals, provides acceleration for neural network computing and signal processing workloads. They are an ideal choice for a wide variety of application scenarios related to AI + Internet of Things (AIoT), such as wake word detection and speech commands recognition , face detection and recognition, smart home, smart appliance, smart control panel, smart speaker etc.
-esp32-s3
-0
-51
-41
-Espressif
-ESP32-WROOM-32E
-ESP32-WROOM-32E and ESP32-WROOM-32UE: https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf
-ESP32
-0
-50
-39
-Espressif
-ESP32-WROOM-32UE
-ESP32-WROOM-32E and ESP32-WROOM-32UE: https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf
-ESP32
-0
-47
-39
-Espressif
-ESP32-WROOM-DA
-ESP32-WROOM-DA: https://www.espressif.com/sites/default/files/documentation/esp32-wroom-da_datasheet_en.pdf
-ESP32 Dual Antenna DA
-0
-49
-41
-Espressif
-ESP32-WROVER-E
-ESP32-WROVER-E: https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf
-esp32 module
-0
-47
-39
-Espressif
-ESP32-WROVER-E_ThermalVias
-ESP32-WROVER-E: https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf
-esp32 module thermal vias
-0
-59
-39
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -71015,6 +70819,13 @@ DFN NoLead 506AQ
 13
 9
 Package_DFN_QFN
+DFN-8-1EP_2x2mm_P0.5mm_EP0.7x1.3mm
+DFN, 8 Pin (https://www.onsemi.com/pub/Collateral/NUF4401MN-D.PDF#page=6), generated with kicad-footprint-generator ipc_noLead_generator.py
+DFN NoLead
+0
+13
+9
+Package_DFN_QFN
 DFN-8-1EP_2x2mm_P0.5mm_EP0.8x1.6mm
 DFN, 8 Pin (https://www.qorvo.com/products/d/da007268), generated with kicad-footprint-generator ipc_noLead_generator.py
 DFN NoLead
@@ -71053,6 +70864,13 @@ Package_DFN_QFN
 DFN-8-1EP_2x2mm_P0.45mm_EP0.64x1.38mm
 DC8 Package 8-Lead Plastic DFN (2mm x 2mm) (see Linear Technology DFN_8_05-08-1719.pdf)
 DFN 0.45
+0
+11
+9
+Package_DFN_QFN
+DFN-8-1EP_2x3mm_P0.5mm_EP0.56x2.15mm
+DFN, 8 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/2451fg.pdf#page=17), generated with kicad-footprint-generator ipc_noLead_generator.py
+DFN NoLead
 0
 11
 9
@@ -71323,6 +71141,13 @@ DFN NoLead
 24
 13
 Package_DFN_QFN
+DFN-12-1EP_3x3mm_P0.45mm_EP1.66x2.38mm
+DD Package; 12-Lead Plastic DFN (3mm x 3mm) (see Linear Technology DFN_12_05-08-1725.pdf)
+DFN 0.45
+0
+17
+13
+Package_DFN_QFN
 DFN-12-1EP_3x4mm_P0.5mm_EP1.7x3.3mm
 DE/UE Package; 12-Lead Plastic DFN (4mm x 3mm) (see Linear Technology DFN_12_05-08-1695.pdf)
 DFN 0.5
@@ -71367,6 +71192,13 @@ VDFN DFN 0.65mm
 Package_DFN_QFN
 DFN-14-1EP_3x4mm_P0.5mm_EP1.7x3.3mm
 DE Package; 14-Lead Plastic DFN (4mm x 3mm) (see Linear Technology DFN_14_05-08-1708.pdf)
+DFN 0.5
+0
+23
+15
+Package_DFN_QFN
+DFN-14-1EP_4x4mm_P0.5mm_EP2.86x3.6mm
+DFN14, 4x4, 0.5P; CASE 506CM (see ON Semiconductor 506CM.PDF)
 DFN 0.5
 0
 23
@@ -74549,6 +74381,13 @@ TI RNR0011A
 0
 20
 11
+Package_DFN_QFN
+Texas_VSON-HR-8_1.5x2mm_P0.5mm
+Texas  VSON-HR, 8 Pin (http://www.ti.com/lit/ds/symlink/tps62823.pdf#page=29), generated with kicad-footprint-generator ipc_noLead_generator.py
+Texas VSON-HR NoLead
+0
+8
+8
 Package_DFN_QFN
 Texas_WQFN-MR-100_3x3-DapStencil
 http://www.ti.com/general/docs/lit/getliterature.tsp?baseLiteratureNumber=szza059&fileType=pdf,http://www.ti.com/general/docs/lit/getliterature.tsp?baseLiteratureNumber=mpqf258&fileType=pdf,http://www.ti.com/general/docs/lit/getliterature.tsp?baseLiteratureNumber=LPPD235&fileType=pdf
@@ -77757,6 +77596,13 @@ NXP LGA NoLead
 8
 Package_LGA
 Rohm_MLGA010V020A_LGA-10_2x2mm_P0.45mm_LayoutBorder2x3y
+Rohm  LGA, 10 Pin (https://fscdn.rohm.com/en/techdata_basic/ic/package/Jisso_MLGA010V020A-1-2_Rev005s_E2(MSL3).pdf)
+Rohm LGA NoLead
+0
+10
+10
+Package_LGA
+Rohm_MLGA010V020A_LGA-10_2x2mm_P0.45mm_LayoutBorder_3x2y
 Rohm  LGA, 10 Pin (https://fscdn.rohm.com/en/techdata_basic/ic/package/Jisso_MLGA010V020A-1-2_Rev005s_E2(MSL3).pdf)
 Rohm LGA NoLead
 0
@@ -81084,6 +80930,20 @@ Package_SO
 VSSOP-8_2.3x2mm_P0.5mm
 VSSOP, 8 Pin (https://www.jedec.org/standards-documents/docs/mo-187-f), generated with kicad-footprint-generator ipc_gullwing_generator.py
 VSSOP SO JEDEC-MO-187-CA TI-DCU0008A
+0
+8
+8
+Package_SO
+VSSOP-8_2.4x2.1mm_P0.5mm
+http://www.ti.com/lit/ml/mpds050d/mpds050d.pdf
+VSSOP DCU R-PDSO-G8 Pitch0.5mm
+0
+8
+8
+Package_SO
+VSSOP-8_3.0x3.0mm_P0.65mm
+VSSOP-8 3.0 x 3.0, http://www.ti.com/lit/ds/symlink/lm75b.pdf
+VSSOP-8 3.0 x 3.0
 0
 8
 8
@@ -96522,517 +96382,6 @@ Varistor VF
 0
 2
 2
-easyeda2kicad
-BNC-TH_DOSIN-801-0051
-
-
-0
-5
-5
-easyeda2kicad
-BUZ-SMD_4P-L7.5-W7.5-P7.59-TL
-
-
-0
-4
-4
-easyeda2kicad
-BUZ-SMD_4P-L8.5-W8.5-P8.50-BR
-
-
-0
-4
-4
-easyeda2kicad
-BUZ-SMD_MLT-9032
-
-
-0
-2
-2
-easyeda2kicad
-CONN-SMD_7P-P1.27_HYC_HYCW02-SATA07-250B
-
-
-0
-9
-9
-easyeda2kicad
-CONN-SMD_AFC10-S09QCC-00
-
-
-0
-11
-11
-easyeda2kicad
-CONN-SMD_LD2136V-MCUL6
-
-
-0
-44
-37
-easyeda2kicad
-CONN-SMD_NXSB0-S67XX-XXH4
-
-
-0
-71
-69
-easyeda2kicad
-CONN-TH_3P-P2.00_A2004WV-3P
-
-
-0
-3
-3
-easyeda2kicad
-CONN-TH_3P-P2.50_X2564WV-03-N0SN
-
-
-0
-3
-3
-easyeda2kicad
-CONN-TH_4P-P0.20_XUNPU_WAFER-XH2.54-4PWB
-
-
-0
-6
-6
-easyeda2kicad
-CONN-TH_A2004WV-5P
-
-
-0
-5
-5
-easyeda2kicad
-CONN-TH_A2004WV-8P
-
-
-0
-8
-8
-easyeda2kicad
-CONN-TH_A2505WV-3P
-
-
-0
-3
-3
-easyeda2kicad
-CONN-TH_A2506WV-08P
-
-
-0
-8
-8
-easyeda2kicad
-CONN-TH_CNJMA2004WV-10P
-
-
-0
-10
-10
-easyeda2kicad
-CONN-TH_X2564WV-05-N0SN
-
-
-0
-5
-5
-easyeda2kicad
-CONN-TH_XT30PW-F-1
-
-
-0
-4
-4
-easyeda2kicad
-CONN-TH_XT30PW-M
-
-
-0
-4
-3
-easyeda2kicad
-DC-IN-TH_DC-005-5A-2.0-SMT
-
-
-0
-4
-3
-easyeda2kicad
-DC-IN-TH_DC-042C-Z-2.5
-
-
-0
-7
-3
-easyeda2kicad
-DC-IN-TH_DC-C033D-5.5A-2.5
-
-
-0
-5
-4
-easyeda2kicad
-DFN-8_L5.5-W5.2-P1.27-LS6.0-BL-EP2
-
-
-0
-6
-6
-easyeda2kicad
-DSUB-TH_DMR-9S
-
-
-0
-11
-11
-easyeda2kicad
-FPC-SMD_8P-P0.50_FPC-05F-8PH20
-
-
-0
-10
-10
-easyeda2kicad
-HDR-SMD_14P-P1.27-V-M-R2-C7-LS5.3
-
-
-0
-14
-14
-easyeda2kicad
-IC-SMD_ACS711KEXLT-15AB-T
-
-
-0
-10
-10
-easyeda2kicad
-IND-SMD_L4.0-W4.0
-
-
-0
-2
-2
-easyeda2kicad
-IND-SMD_L5.2-W5.4
-
-
-0
-2
-2
-easyeda2kicad
-IND-SMD_L7.0-W6.6_FXL0630
-
-
-0
-2
-2
-easyeda2kicad
-KEY-SMD_4P-L2.6-W1.6-P0.80-LS3.0
-
-
-0
-4
-4
-easyeda2kicad
-KEY-SMD_B3U-3000P
-
-
-0
-2
-2
-easyeda2kicad
-KEY-TH_4P-L7.5-W11.5-P4.5
-
-
-0
-4
-4
-easyeda2kicad
-KEY-TH_SKHHLWA010
-
-
-0
-4
-4
-easyeda2kicad
-LED-SMD_L3.3-W2.8-RD
-
-
-0
-2
-2
-easyeda2kicad
-MBF-SMD_L4.8-W3.8-P2.54-LS6.8-TL
-
-
-0
-4
-4
-easyeda2kicad
-MBS_L4.7-W4.0-P2.50-LS7.0-TL
-
-
-0
-4
-4
-easyeda2kicad
-MLP44-24_L4.0-W4.0-P0.45-TL-EP
-
-
-0
-28
-28
-easyeda2kicad
-MLP55-27_L5.0-W5.0-P0.50-TL_SIC46XXX
-
-
-0
-30
-30
-easyeda2kicad
-QFN-20_L5.0-W5.0-P0.65-BL-EP
-
-
-0
-21
-21
-easyeda2kicad
-QFN-28_L5.0-W5.0-P0.50-BL-EP3.3
-
-
-0
-29
-29
-easyeda2kicad
-QFN-56_L8.0-W8.0-P0.50-BL-EP6.1
-
-
-0
-57
-57
-easyeda2kicad
-QFN-64_L9.0-W9.0-P0.50-BL-EP4.8
-
-
-0
-65
-65
-easyeda2kicad
-RES-TH_RK09K1110A0J
-
-
-0
-5
-5
-easyeda2kicad
-SC-70-6_L2.1-W1.3-P0.65-LS2.3-BR
-
-
-0
-6
-6
-easyeda2kicad
-SC70-6_L2.1-W1.3-P0.65-LS2.3-BL
-
-
-0
-6
-6
-easyeda2kicad
-SMA_L4.4-W2.8-LS5.4-R-RD
-
-
-0
-2
-2
-easyeda2kicad
-SO-8_L4.9-W3.9-P1.27-LS5.9-BL
-
-
-0
-8
-8
-easyeda2kicad
-SO-DIMM-SMD_200P-P0.60_1473005-4
-
-
-0
-202
-201
-easyeda2kicad
-SOD-323_L1.6-W1.3-LS2.7-RD
-
-
-0
-2
-2
-easyeda2kicad
-SOD-923_L0.8-W0.6-LS1.0-BI-1
-
-
-0
-2
-2
-easyeda2kicad
-SOP-8_L4.9-W3.9-P1.27-LS6.0-BL
-
-
-0
-8
-8
-easyeda2kicad
-SOP-8_L5.0-W4.0-P1.27-LS6.0-BL
-
-
-0
-8
-8
-easyeda2kicad
-SOP-16_L10.0-W3.9-P1.27-LS6.0-BL
-
-
-0
-16
-16
-easyeda2kicad
-SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR
-
-
-0
-3
-3
-easyeda2kicad
-SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR
-
-
-0
-3
-3
-easyeda2kicad
-SOT-363_L2.0-W1.3-P0.65-LS2.1-BL
-
-
-0
-6
-6
-easyeda2kicad
-SW-SMD_4P-L3.4-W3.4-P2.00-LS4.0_YTSA007AXXXX
-
-
-0
-6
-5
-easyeda2kicad
-SW-TH_GT-TB092B-H080-L1
-
-
-0
-4
-4
-easyeda2kicad
-TDFN-8_L2.0-W2.0-P0.50-BL
-
-
-0
-8
-8
-easyeda2kicad
-TF-SMD_GT-TF003-H0185-01
-
-
-0
-15
-13
-easyeda2kicad
-TSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL
-
-
-0
-16
-16
-easyeda2kicad
-TSSOP-28_L9.7-W4.4-P0.65-LS6.4-BL-EP4.8
-
-
-0
-29
-29
-easyeda2kicad
-U-DFN2020-6_L2.0-W2.0-P0.65-BL-EP_DMP2066UFDE-7
-
-
-0
-8
-8
-easyeda2kicad
-UDFN-16_L3.3-W1.4-P0.40-BL-EP
-
-
-0
-17
-17
-easyeda2kicad
-UQFN-12_L2.0-W1.7-P0.40-BL
-
-
-0
-12
-12
-easyeda2kicad
-USB-C-SMD_GT-USB-7052_1
-
-
-0
-29
-25
-easyeda2kicad
-VQFN-32_L5.0-W5.0-P0.50-TL-EP
-
-
-0
-33
-33
-easyeda2kicad
-WLCSP-9_L1.4-W1.4-R3-C3-P0.40-TL
-
-
-0
-9
-9
-easyeda2kicad
-WSON-6_L2.0-W2.0-P0.65-TL-EP
-
-
-0
-7
-7
-easyeda2kicad
-WSON-8_L1.7-W1.4-P0.40-BL-EP
-
-
-0
-9
-9
-easyeda2kicad
-WSON-8_L2.0-W2.0-P0.50-BL-EP0.9
-
-
-0
-9
-9
-easyeda2kicad
-WSON-12_L4.0-W4.0-P0.50-BL-EP
-
-
-0
-13
-13
 matei
 01x05_sidemount
 Unnamed1 StepUp generated footprint
@@ -97167,13 +96516,6 @@ GC9A01Round1.28_flipped_mount_easy_esc
 12
 12
 matei
-HRO-TYPE-C-31-M-12
-USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf
-usb usb-c 2.0 pd
-0
-20
-17
-matei
 IC_W25Q16JVUXIQ_TR
 
 
@@ -97250,6 +96592,13 @@ M.2-KEY-BLANK
 0
 76
 76
+matei
+MLP44-24_L4.0-W4.0-P0.45-TL-EP
+
+
+0
+28
+28
 matei
 MODULE_TMC2208_SILENTSTEPSTICK
 
@@ -97412,6 +96761,13 @@ SWD_pogo_landing StepUp generated footprint
 6
 6
 matei
+SiC437AED
+SiC437AED StepUp generated footprint
+
+0
+29
+28
+matei
 SiliconDome
 
 
@@ -97435,6 +96791,13 @@ antenna StepUp generated footprint
 matei
 ayab-oshw
 
+
+0
+0
+0
+matei
+bud_9162
+bud_enclosures StepUp generated footprint
 
 0
 0
@@ -97488,13 +96851,6 @@ Unnamed StepUp generated footprint
 0
 3
 1
-matei
-nucleo
-
-
-0
-108
-38
 matei
 oyster_silk
 

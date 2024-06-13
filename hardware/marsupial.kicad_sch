@@ -3182,6 +3182,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC ID" "C431092"
+			(at 265.43 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e103a97b-2730-476c-b515-98b7a4f671ed")
 		)
@@ -3321,7 +3330,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C15849"
+		(property "LCSC ID" "C15849"
 			(at 234.95 119.38 0)
 			(effects
 				(font
@@ -3397,8 +3406,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C16106"
-			(at 204.47 130.81 0)
+		(property "LCSC ID" "C16106"
+			(at 204.47 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3537,6 +3546,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 223.52 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC ID" ""
 			(at 223.52 146.05 0)
 			(effects
 				(font
@@ -3875,7 +3893,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C15849"
+		(property "LCSC ID" "C15849"
 			(at 189.23 119.38 0)
 			(effects
 				(font
@@ -3946,6 +3964,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 241.3 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC ID" ""
 			(at 241.3 146.05 0)
 			(effects
 				(font
@@ -4077,6 +4104,15 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack with a mounting pin"
+			(at 265.43 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC ID" "C431092"
 			(at 265.43 44.45 0)
 			(effects
 				(font
@@ -4222,7 +4258,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C5446"
+		(property "LCSC ID" "C5446"
 			(at 250.19 113.03 0)
 			(effects
 				(font
@@ -4362,6 +4398,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 204.47 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC ID" ""
 			(at 204.47 143.51 0)
 			(effects
 				(font
@@ -4560,6 +4605,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 250.19 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC ID" ""
 			(at 250.19 146.05 0)
 			(effects
 				(font
@@ -4833,7 +4887,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C15849"
+		(property "LCSC ID" "C15849"
 			(at 219.71 119.38 0)
 			(effects
 				(font
@@ -4912,6 +4966,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC ID" ""
+			(at 232.41 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "64cf8cd1-2a6f-4c40-bb0d-55c02a11714f")
 		)
@@ -4970,6 +5033,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 243.84 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC ID" ""
 			(at 243.84 85.09 0)
 			(effects
 				(font
@@ -5045,7 +5117,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C15849"
+		(property "LCSC ID" "C15849"
 			(at 265.43 119.38 0)
 			(effects
 				(font
@@ -5124,7 +5196,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2856797"
+		(property "LCSC ID" "C2856797"
 			(at 217.17 78.74 0)
 			(effects
 				(font
@@ -5303,7 +5375,7 @@
 			(uuid "08ebe63b-87ff-404d-bdb3-87fe78f7f6ca")
 		)
 		(instances
-			(project "pdcard"
+			(project "marsupial"
 				(path "/a04d6ea3-43ae-48a1-85c5-5c91a24cd719"
 					(page "7")
 				)
@@ -5511,7 +5583,7 @@
 			(uuid "06e444de-b778-4fb8-a52d-69709711107e")
 		)
 		(instances
-			(project "pdcard"
+			(project "marsupial"
 				(path "/a04d6ea3-43ae-48a1-85c5-5c91a24cd719"
 					(page "5")
 				)
@@ -5719,7 +5791,7 @@
 			(uuid "e9ef02ab-38e1-484d-8011-a1511d033d43")
 		)
 		(instances
-			(project "pdcard"
+			(project "marsupial"
 				(path "/a04d6ea3-43ae-48a1-85c5-5c91a24cd719"
 					(page "2")
 				)
@@ -6057,7 +6129,7 @@
 			(uuid "1d63c1ca-ae4f-4c54-80c7-5ebfdf4bb001")
 		)
 		(instances
-			(project "pdcard"
+			(project "marsupial"
 				(path "/a04d6ea3-43ae-48a1-85c5-5c91a24cd719"
 					(page "4")
 				)

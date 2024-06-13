@@ -59,7 +59,6 @@
         }
       ],
       "drc_exclusions": [
-        "lib_footprint_issues|137684400|97866200|a01a44c2-413f-4851-b6aa-441eb2648aca|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|126422415|136096897|9a7a2043-e397-4056-a560-cef886220092|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|150044415|136249297|bf0421a8-ba3e-4076-99b2-3fb92ccebaf8|00000000-0000-0000-0000-000000000000"
       ],
@@ -89,7 +88,7 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "warning",
+        "lib_footprint_issues": "ignore",
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
@@ -677,18 +676,6 @@
         },
         {
           "group_by": false,
-          "label": "JLCPCB Part #",
-          "name": "JLCPCB Part #",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "LCSC Part",
-          "name": "LCSC Part",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "Sim.Device",
           "name": "Sim.Device",
           "show": false
@@ -709,6 +696,12 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC ID",
+          "name": "LCSC ID",
           "show": false
         }
       ],

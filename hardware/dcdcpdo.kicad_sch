@@ -3285,7 +3285,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C19666"
+		(property "LCSC ID" "C19666"
 			(at 104.14 102.87 0)
 			(effects
 				(font
@@ -3368,7 +3368,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C15849"
+		(property "LCSC ID" "C15849"
 			(at 154.94 62.23 0)
 			(effects
 				(font
@@ -3448,7 +3448,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C137971"
+		(property "LCSC ID" "C137971"
 			(at 143.51 49.53 0)
 			(effects
 				(font
@@ -3530,7 +3530,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C76659"
+		(property "LCSC ID" "C76659"
 			(at 162.56 102.87 0)
 			(effects
 				(font
@@ -3613,7 +3613,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25899"
+		(property "LCSC ID" "C25899"
 			(at 191.77 120.65 0)
 			(effects
 				(font
@@ -3766,7 +3766,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25866"
+		(property "LCSC ID" "C25866"
 			(at 191.77 110.49 0)
 			(effects
 				(font
@@ -3848,7 +3848,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C76659"
+		(property "LCSC ID" "C76659"
 			(at 142.24 102.87 0)
 			(effects
 				(font
@@ -3928,7 +3928,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C524588"
+		(property "LCSC ID" "C524588"
 			(at 120.65 97.79 0)
 			(effects
 				(font
@@ -4011,7 +4011,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25744"
+		(property "LCSC ID" "C25744"
 			(at 148.59 43.18 0)
 			(effects
 				(font
@@ -4093,7 +4093,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C22939"
+		(property "LCSC ID" "C22939"
 			(at 105.41 36.83 0)
 			(effects
 				(font
@@ -4131,7 +4131,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73ad0bf6-67ed-4033-afa1-0455f9a4c927")
-		(property "Reference" "J501"
+		(property "Reference" "J301"
 			(at 215.9 125.73 90)
 			(effects
 				(font
@@ -4176,6 +4176,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC ID" "C2685182"
+			(at 208.28 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b03cd861-7798-4335-a1f9-4257c34368a8")
 		)
@@ -4202,12 +4211,12 @@
 		)
 		(instances
 			(project "pdcard"
-				(path "/a04d6ea3-43ae-48a1-85c5-5c91a24cd719/3829ccac-a87e-4e02-8de9-236dec2bccc3/93e043fd-2a5d-44fd-a1dc-d2f6639621cc"
-					(reference "J501")
-					(unit 1)
-				)
 				(path "/a04d6ea3-43ae-48a1-85c5-5c91a24cd719/348037e6-65f2-44d8-8d3f-10d87c91dfbf/93e043fd-2a5d-44fd-a1dc-d2f6639621cc"
 					(reference "J301")
+					(unit 1)
+				)
+				(path "/a04d6ea3-43ae-48a1-85c5-5c91a24cd719/3829ccac-a87e-4e02-8de9-236dec2bccc3/93e043fd-2a5d-44fd-a1dc-d2f6639621cc"
+					(reference "J501")
 					(unit 1)
 				)
 			)
@@ -4267,7 +4276,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C76659"
+		(property "LCSC ID" "C76659"
 			(at 152.4 102.87 0)
 			(effects
 				(font
@@ -4350,7 +4359,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25794"
+		(property "LCSC ID" "C25794"
 			(at 166.37 80.01 0)
 			(effects
 				(font
@@ -4405,7 +4414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:MLP44-24_L4.0-W4.0-P0.45-TL-EP"
+		(property "Footprint" "matei:SiC437AED"
 			(at 86.36 49.53 0)
 			(effects
 				(font
@@ -4432,16 +4441,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C2071432"
-			(at 113.03 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C2071432"
+		(property "LCSC ID" "C2071432"
 			(at 113.03 62.23 0)
 			(effects
 				(font
@@ -4601,7 +4601,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14663"
+		(property "LCSC ID" "C14663"
 			(at 80.01 59.69 0)
 			(effects
 				(font
@@ -4684,7 +4684,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C728428"
+		(property "LCSC ID" "C728428"
 			(at 191.77 100.33 0)
 			(effects
 				(font
@@ -4764,7 +4764,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25741"
+		(property "LCSC ID" "C25741"
 			(at 143.51 62.23 0)
 			(effects
 				(font
@@ -4847,7 +4847,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14663"
+		(property "LCSC ID" "C14663"
 			(at 113.03 36.83 0)
 			(effects
 				(font
@@ -4929,7 +4929,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C76659"
+		(property "LCSC ID" "C76659"
 			(at 132.08 102.87 0)
 			(effects
 				(font
@@ -5012,7 +5012,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C728428"
+		(property "LCSC ID" "C728428"
 			(at 191.77 90.17 0)
 			(effects
 				(font
@@ -5094,7 +5094,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C45783"
+		(property "LCSC ID" "C45783"
 			(at 64.77 59.69 0)
 			(effects
 				(font
@@ -5318,7 +5318,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C4109"
+		(property "LCSC ID" "C4109"
 			(at 191.77 80.01 0)
 			(effects
 				(font
