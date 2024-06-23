@@ -609,7 +609,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "marsupial.step",
       "svg": "",
       "vrml": ""
     },
