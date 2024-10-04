@@ -33,7 +33,7 @@
 /* USER CODE END Includes */
 
 /* Define   ------------------------------------------------------------------*/
-#define PORT0_NB_SOURCEPDO         5U   /* Number of Source PDOs (applicable for port 0)   */
+#define PORT0_NB_SOURCEPDO         1U   /* Number of Source PDOs (applicable for port 0)   */
 #define PORT0_NB_SINKPDO           0U   /* Number of Sink PDOs (applicable for port 0)     */
 #define PORT1_NB_SOURCEPDO         5U   /* Number of Source PDOs (applicable for port 1)   */
 #define PORT1_NB_SINKPDO           0U   /* Number of Sink PDOs (applicable for port 1)     */
@@ -43,18 +43,14 @@
 /* USER CODE END Define */
 
 /* Exported typedef ----------------------------------------------------------*/
-
 /* USER CODE BEGIN typedef */
-
 /**
   * @brief  USBPD Port PDO Structure definition
   *
   */
-
 /* USER CODE END typedef */
 
 /* Exported define -----------------------------------------------------------*/
-
 /* USER CODE BEGIN Exported_Define */
 
 #define USBPD_CORE_PDO_SRC_FIXED_MAX_CURRENT 3
@@ -75,9 +71,7 @@
 /* USER CODE END macro */
 
 /* Exported variables --------------------------------------------------------*/
-
 /* USER CODE BEGIN variables */
-
 /* USER CODE END variables */
 
 #ifndef __USBPD_PWR_IF_C
@@ -90,76 +84,106 @@ extern uint32_t PORT1_PDO_ListSNK[USBPD_MAX_NB_PDO];
 uint32_t PORT0_PDO_ListSRC[USBPD_MAX_NB_PDO] =
 {
   /* PDO 1 */
-        (0x2201912CU),
-  /* PDO 2 */
-        (0x00000000U),
-  /* PDO 3 */
-        (0x00000000U),
-  /* PDO 4 */
-        (0x00000000U),
-  /* PDO 5 */
-        (0x00000000U),
-  /* PDO 6 */
-        (0x00000000U),
-  /* PDO 7 */
-        (0x00000000U)
+  (
+    USBPD_PDO_TYPE_FIXED                 | /* Fixed supply PDO            */
+
+    USBPD_PDO_SRC_FIXED_SET_VOLTAGE(5000U)         | /* Voltage in mV               */
+    USBPD_PDO_SRC_FIXED_SET_MAX_CURRENT(100U)     | /* Max current in mA           */
+    USBPD_PDO_SRC_FIXED_PEAKCURRENT_EQUAL          | /* Peak Current info           */
+
+    /* Common definitions applicable to all PDOs, defined only in PDO 1 */
+    USBPD_PDO_SRC_FIXED_UNCHUNK_NOT_SUPPORTED      | /* Unchunked Extended Messages */
+    USBPD_PDO_SRC_FIXED_DRD_SUPPORTED          | /* Dual-Role Data              */
+    USBPD_PDO_SRC_FIXED_USBCOMM_NOT_SUPPORTED      | /* USB Communications          */
+    USBPD_PDO_SRC_FIXED_EXT_POWER_NOT_AVAILABLE    | /* External Power              */
+    USBPD_PDO_SRC_FIXED_USBSUSPEND_NOT_SUPPORTED   | /* USB Suspend Supported		 */
+    USBPD_PDO_SRC_FIXED_DRP_NOT_SUPPORTED            /* Dual-Role Power             */
+  ),
+  /* PDO 2 */ (0x00000000U),
+  /* PDO 3 */ (0x00000000U),
+  /* PDO 4 */ (0x00000000U),
+  /* PDO 5 */ (0x00000000U),
+  /* PDO 6 */ (0x00000000U),
+  /* PDO 7 */ (0x00000000U),
 };
 
 /* Definition of Sink PDO for Port 0 */
 uint32_t PORT0_PDO_ListSNK[USBPD_MAX_NB_PDO] =
 {
-  /* PDO 1 */
-        (0x00000000U),
-  /* PDO 2 */
-        (0x00000000U),
-  /* PDO 3 */
-        (0x00000000U),
-  /* PDO 4 */
-        (0x00000000U),
-  /* PDO 5 */
-        (0x00000000U),
-  /* PDO 6 */
-        (0x00000000U),
-  /* PDO 7 */
-        (0x00000000U)
+  /* PDO 1 */ (0x00000000U),
+  /* PDO 2 */ (0x00000000U),
+  /* PDO 3 */ (0x00000000U),
+  /* PDO 4 */ (0x00000000U),
+  /* PDO 5 */ (0x00000000U),
+  /* PDO 6 */ (0x00000000U),
+  /* PDO 7 */ (0x00000000U),
 };
 
 /* Definition of Source PDO for Port 1 */
 uint32_t PORT1_PDO_ListSRC[USBPD_MAX_NB_PDO] =
 {
   /* PDO 1 */
-        (0x2201912CU),
+  (
+    USBPD_PDO_TYPE_FIXED                 | /* Fixed supply PDO            */
+
+    USBPD_PDO_SRC_FIXED_SET_VOLTAGE(5000U)         | /* Voltage in mV               */
+    USBPD_PDO_SRC_FIXED_SET_MAX_CURRENT(3000U)     | /* Max current in mA           */
+    USBPD_PDO_SRC_FIXED_PEAKCURRENT_EQUAL          | /* Peak Current info           */
+
+    /* Common definitions applicable to all PDOs, defined only in PDO 1 */
+    USBPD_PDO_SRC_FIXED_UNCHUNK_NOT_SUPPORTED      | /* Unchunked Extended Messages */
+    USBPD_PDO_SRC_FIXED_DRD_NOT_SUPPORTED          | /* Dual-Role Data              */
+    USBPD_PDO_SRC_FIXED_USBCOMM_NOT_SUPPORTED      | /* USB Communications          */
+    USBPD_PDO_SRC_FIXED_EXT_POWER_NOT_AVAILABLE    | /* External Power              */
+    USBPD_PDO_SRC_FIXED_USBSUSPEND_NOT_SUPPORTED   | /* USB Suspend Supported		 */
+    USBPD_PDO_SRC_FIXED_DRP_NOT_SUPPORTED            /* Dual-Role Power             */
+  ),
   /* PDO 2 */
-        (0x00000000U),
+  (
+    USBPD_PDO_TYPE_FIXED                        | /* Fixed supply                */
+
+    USBPD_PDO_SRC_FIXED_SET_VOLTAGE(9000U)         | /* Voltage in mV               */
+    USBPD_PDO_SRC_FIXED_SET_MAX_CURRENT(3000U)     | /* Max current in mA           */
+    USBPD_PDO_SRC_FIXED_PEAKCURRENT_EQUAL            /* Peak Current info           */
+  ),
   /* PDO 3 */
-        (0x00000000U),
+  (
+    USBPD_PDO_TYPE_FIXED                        | /* Fixed supply                */
+
+    USBPD_PDO_SRC_FIXED_SET_VOLTAGE(5000U)         | /* Voltage in mV               */
+    USBPD_PDO_SRC_FIXED_SET_MAX_CURRENT(3000U)     | /* Max current in mA           */
+    USBPD_PDO_SRC_FIXED_PEAKCURRENT_EQUAL            /* Peak Current info           */
+  ),
   /* PDO 4 */
-        (0x00000000U),
+  (
+    USBPD_PDO_TYPE_FIXED                        | /* Fixed supply                */
+
+    USBPD_PDO_SRC_FIXED_SET_VOLTAGE(15000U)         | /* Voltage in mV               */
+    USBPD_PDO_SRC_FIXED_SET_MAX_CURRENT(3000U)     | /* Max current in mA           */
+    USBPD_PDO_SRC_FIXED_PEAKCURRENT_EQUAL            /* Peak Current info           */
+  ),
   /* PDO 5 */
-        (0x00000000U),
-  /* PDO 6 */
-        (0x00000000U),
-  /* PDO 7 */
-        (0x00000000U)
+  (
+    USBPD_PDO_TYPE_FIXED                        | /* Fixed supply                */
+
+    USBPD_PDO_SRC_FIXED_SET_VOLTAGE(20000U)         | /* Voltage in mV               */
+    USBPD_PDO_SRC_FIXED_SET_MAX_CURRENT(3000U)     | /* Max current in mA           */
+    USBPD_PDO_SRC_FIXED_PEAKCURRENT_EQUAL            /* Peak Current info           */
+  ),
+  /* PDO 6 */ (0x00000000U),
+  /* PDO 7 */ (0x00000000U),
 };
 
 /* Definition of Sink PDO for Port 1 */
 uint32_t PORT1_PDO_ListSNK[USBPD_MAX_NB_PDO] =
 {
-  /* PDO 1 */
-        (0x00000000U),
-  /* PDO 2 */
-        (0x00000000U),
-  /* PDO 3 */
-        (0x00000000U),
-  /* PDO 4 */
-        (0x00000000U),
-  /* PDO 5 */
-        (0x00000000U),
-  /* PDO 6 */
-        (0x00000000U),
-  /* PDO 7 */
-        (0x00000000U)
+  /* PDO 1 */ (0x00000000U),
+  /* PDO 2 */ (0x00000000U),
+  /* PDO 3 */ (0x00000000U),
+  /* PDO 4 */ (0x00000000U),
+  /* PDO 5 */ (0x00000000U),
+  /* PDO 6 */ (0x00000000U),
+  /* PDO 7 */ (0x00000000U),
 };
 #endif
 

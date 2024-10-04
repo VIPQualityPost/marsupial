@@ -1,7 +1,7 @@
 /* USER CODE BEGIN Header */
 /**
   ******************************************************************************
-  * @file    usbpd.c
+  * @file    app/usbpd.c.c
   * @author  MCD Application Team
   * @brief   This file contains the device define.
   ******************************************************************************

@@ -134,7 +134,7 @@ USBPD_StatusTypeDef USBPD_PWR_IF_SetProfile(uint8_t PortNum)
      _status = USBPD_OK;
   }
  */
-  return _status;
+   return _status;
 /* USER CODE END USBPD_PWR_IF_SetProfile */
 }
 
@@ -371,6 +371,7 @@ void USBPD_PWR_IF_UpdateVbusThreshold(uint8_t PortNum)
 void USBPD_PWR_IF_ResetVbusThreshold(uint8_t PortNum)
 {
 /* USER CODE BEGIN USBPD_PWR_IF_ResetVbusThreshold */
+
 /* USER CODE END USBPD_PWR_IF_ResetVbusThreshold */
 }
 

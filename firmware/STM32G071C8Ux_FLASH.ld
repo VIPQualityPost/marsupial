@@ -6,8 +6,8 @@
 **
 **  Author		: STM32CubeMX
 **
-**  Abstract    : Linker script for STM32G071RBTx series
-**                128Kbytes FLASH and 36Kbytes RAM
+**  Abstract    : Linker script for STM32G071C8Ux series
+**                64Kbytes FLASH and 36Kbytes RAM
 **
 **                Set heap size, stack size and stack location according
 **                to application requirements.
@@ -62,7 +62,7 @@ _Min_Stack_Size = 0x400; /* required amount of stack */
 MEMORY
 {
 RAM (xrw)      : ORIGIN = 0x20000000, LENGTH = 36K
-FLASH (rx)      : ORIGIN = 0x8000000, LENGTH = 128K
+FLASH (rx)      : ORIGIN = 0x8000000, LENGTH = 64K
 }
 
 /* Define output sections */
